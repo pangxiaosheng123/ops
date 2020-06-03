@@ -1,0 +1,5 @@
+cd /home/hello
+mv /usr/share/nginx/ljh-admin /tmp/ljh-admin`date -d now +%s`
+tar vxf admin.tar.gz -C /usr/share/nginx/
+mv /usr/share/nginx/dist /usr/share/nginx/ljh-admin
+rm  admin.tar.gz
